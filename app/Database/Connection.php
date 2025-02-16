@@ -41,6 +41,16 @@ class Connection
     {
         $pdo = self::$pdo;
         $tables = [
+            "CREATE TABLE IF NOT EXISTS books (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                title TEXT NOT NULL,
+                author TEXT NOT NULL,
+                published_year INTEGER NOT NULL,
+                created_at DATETIME NOT NULL DEFAULT (datetime('now')),
+                updated_at DATETIME,
+                created_by TEXT,
+                updated_by TEXT
+            )",
             "CREATE TABLE IF NOT EXISTS users (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
                 username TEXT UNIQUE NOT NULL,

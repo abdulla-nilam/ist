@@ -2,7 +2,9 @@
 
 
 return [
-    'jwt_secret' => 'bc939e26543754b4bfc703e320e836e1e99bfca136e095b99ce289827c9d47695ff07b2b24712f5daab5d4b2770fe0213d6b24cdad38ac93e4ecf18c9a247071918c7ecd22049c3f4eed99da61d75c25933c0855eb362cf79e38e1a0c18e287861736f9a9c340be5d55ebee29d7eacb6816a12e751cdb518d1d8100673fa8d8cfa27fa027a2152f101932668bac87d3491780621c59bc6293ac4af774e2754523835e859b77e50fe734a9974544adb515a3fc21fba9ef5bf73400826fd06a27dee67234daf005000a382151648758190b1ddeb3cbcd0990edd079c6039b4274a712b3df1c15c226b5469eb5885c314df57714c1999d9367066dfc6c9de660677',
+    'jwt_secret' => '',
     'jwt_expiration' => 3600,
-    'sqlite_path'   => __DIR__ . '/../database.sqlite'
+    'sqlite_path'   => __DIR__ . '/../database.sqlite',
+    'openai_api_key'  => '',
+    'google_gemini_api_key'  => '',
 ];
