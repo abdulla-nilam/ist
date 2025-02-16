@@ -18,6 +18,8 @@
      ```
 
 - **Postman Collection has provided**. use that to test the API. (`screenshot/IST.postman_collection.json`)
+- books table will also have `updated_by`, `updated_at`, `created_by`, `created_at`
+- Users tbale has `last_logged_in`
 
 ----------------------
 ## Tools used
