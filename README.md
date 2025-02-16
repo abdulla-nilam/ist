@@ -12,12 +12,12 @@
 
 - Authorization
     - **Note:** An environment variable called `token` has been defined.
-      Use that to set the value so it will automatically update the API Authorization Bearer for all requests. (Screenshot added in Bottom)
+      Use that to set the value so it will automatically update the API Authorization Bearer for all requests. (screenshot added in Bottom)
     ```text
     Authorization: Bearer your_jwt_token
      ```
 
-- **Postman Collection has provided**. use that to test the API. (`Screenshot/IST.postman_collection.json`)
+- **Postman Collection has provided**. use that to test the API. (`screenshot/IST.postman_collection.json`)
 
 ----------------------
 ## Tools used
@@ -91,7 +91,7 @@
 ----- 
 ## Set variable in Postman Collection
 - Step 01
-![Postman 1](Screenshot/Postman_1.png)
+![Postman 1](screenshot/Postman_1.png)
 
 - Step 02
-![Postman 2](Screenshot/Postman_2.png)
+![Postman 2](screenshot/Postman_2.png)
